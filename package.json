@@ -25,7 +25,7 @@
   "renovate": {
     "unpublishSafe": true,
     "lockFileMaintenance": {
-      "enabled": true,
+      "automerge": true,
       "schedule": []
     }
   }
