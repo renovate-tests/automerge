@@ -1,0 +1,28 @@
+{
+  "name": "jest-playback",
+  "version": "1.0.0",
+  "description": "Record and playback http requests from your Jest tests",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/ikatyang/jest-playback",
+  "homepage": "https://github.com/ikatyang/jest-playback#readme",
+  "author": {
+    "name": "Ika",
+    "email": "ikatyang@gmail.com",
+    "url": "https://github.com/ikatyang"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn run build",
+    "lint": "tslint -p ./tsconfig.json --type-check -t stylish",
+    "test": "jest -c ./jest.json",
+    "prebuild": "rm -rf ./lib",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "prettier": "1.5.3"
+  },
+  "renovate": {
+    "unpublishSafe": true
+  }
+}
