@@ -20,7 +20,7 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
-    "prettier": "1.5.3"
+    "prettier": "0.22.0"
   },
   "renovate": {
     "unpublishSafe": true,
