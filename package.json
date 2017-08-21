@@ -24,6 +24,9 @@
   },
   "renovate": {
     "unpublishSafe": true,
-    "automerge": "any"
+    "lockFileMaintenance": {
+      "enabled": true,
+      "schedule": []
+    }
   }
 }
