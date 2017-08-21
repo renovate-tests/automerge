@@ -24,7 +24,7 @@
   },
   "renovate": {
     "unpublishSafe": true,
-    "patch": {
+    "minor": {
       "automerge": true
     }
   }
