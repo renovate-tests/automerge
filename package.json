@@ -15,8 +15,8 @@
   "scripts": {
     "test": "ls -l"
   },
-  "devDependencies": {
-    "auth0/auth0.js": "8.9.2"
+  "dependencies": {
+    "auth0-js": "8.9.2"
   },
   "renovate": {
     "pinVersions": true,
