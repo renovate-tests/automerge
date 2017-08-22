@@ -16,13 +16,13 @@
     "test": "ls -l"
   },
   "devDependencies": {
-    "prettier": "1.5.3"
+    "auth0/auth0.js": "8.9.2"
   },
   "renovate": {
-    "unpublishSafe": true,
-    "lockFileMaintenance": {
-      "automerge": true,
-      "schedule": []
-    }
+    "pinVersions": true,
+    "semanticCommits": true,
+    "assignees": ["denkristoffer"],
+    "prCreation": "not-pending",
+    "automerge": "minor"
   }
 }
